@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
 /**
  * main - Determines if a number is positive, 0 or negative
@@ -8,20 +10,22 @@
 
 int main(void)
 {
-	int x;
+        int i;
 
-	if (x > 0)
-	{
-		printf("%d is positive", x);
-	}
-	else if (x == 0)
-	{
-		printf("%d is zero", x);
-	}
-	else
-	{
-		printf("%d is negative", x);
-	}
+	srand(time(0));
+	i = rand() - RAND_MAX / 2;
+        if (i > 0)
+        {
+                printf("%d is positive", i);
+        }
+        else if (i == 0)
+        {
+                printf("%d is zero", i);
+        }
+        else
+        {
+                printf("%d is negative", i);
+        }
 
-	return (0);
+        return (0);
 }

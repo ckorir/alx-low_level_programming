@@ -18,7 +18,7 @@ void print_to_98(int n)
 	break;
 	}
 	else
-	{       
+	{
 	printf("%d, ", n);
 	}
 	}

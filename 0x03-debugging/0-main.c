@@ -4,8 +4,10 @@
  * main - Test function that prints positive or negative
  * Return: Always 0
  */
+
 int main(void)
 {
+
 	int i;
 
 	i = 0;

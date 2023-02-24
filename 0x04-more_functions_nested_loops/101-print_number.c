@@ -4,9 +4,10 @@
 /**
  * print_number - prints an integer
  * @n: the integer to print
- * Return: empty
+ * Return: Nothing
  */
 void print_number(int n)
+	
 {
 	unsigned int x = n;
 

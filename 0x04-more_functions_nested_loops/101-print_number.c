@@ -7,7 +7,6 @@
  * Return: Nothing
  */
 void print_number(int n)
-	
 {
 	unsigned int x = n;
 
@@ -22,4 +21,3 @@ void print_number(int n)
 	print_number(x);
 	_putchar((unsigned int) n % 10 + '0');
 }	
-

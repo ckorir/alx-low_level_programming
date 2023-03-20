@@ -6,5 +6,5 @@
  * absolute value of a number x
  * @x: The number to be computed
  */
-#define ABS(x) ((x) < 0 ? (-x) : (x))
+#define ABS(x) ((x < 0) ? (x) * (-1) : (x))
 #endif

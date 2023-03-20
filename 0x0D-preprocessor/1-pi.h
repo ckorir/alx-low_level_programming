@@ -2,7 +2,8 @@
 #define PI_H
 
 /**
- * defines a macro named PI as an abbreviation for the token 3.14159265359
+ * main - defines a macro named PI as an abbreviation
+ * for the token 3.14159265359
  */
 #define PI 3.14159265359
 #endif

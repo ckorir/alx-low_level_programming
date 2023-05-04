@@ -2,7 +2,7 @@
 
 /**
  * clear_bit - sets the value of a bit to 0
- * n: pointer of an unsigned long int
+ * @n: pointer of an unsigned long int
  * @index: bit index
  * Return: 1 if worked, -1 if not
  */
